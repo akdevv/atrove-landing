@@ -8,13 +8,15 @@ import Footer from "./components/footer";
 
 export default function Home() {
 	return (
-		<div>
+		<div className="font-manrope bg-white">
 			<Navbar />
-			<HeroSection />
-			<CTA />
-			<Testimonials />
-			<FounderSection />
-			<DiscoverySection />
+			<main className="mx-4 md:mx-auto max-w-7xl space-y-12 my-12">
+				<HeroSection />
+				<CTA />
+				<Testimonials />
+				<FounderSection />
+				<DiscoverySection />
+			</main>
 			<Footer />
 		</div>
 	);
