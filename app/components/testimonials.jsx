@@ -86,13 +86,13 @@ export default function Testimonials() {
 					<div className="flex items-center gap-4">
 						<button
 							onClick={handlePrev}
-							className="text-black/50 hover:text-black active:scale-95 transition-all duration-300"
+							className="text-black/50 transition-all duration-200 active:scale-90 active:translate-x-[-4px]"
 						>
 							<FaArrowLeft />
 						</button>
 						<button
 							onClick={handleNext}
-							className="text-black/50 hover:text-black active:scale-95 transition-all duration-300"
+							className="text-black/50 transition-all duration-200 active:scale-90 active:translate-x-[4px]"
 						>
 							<FaArrowRight />
 						</button>

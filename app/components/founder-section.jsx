@@ -51,12 +51,12 @@ export default function FounderSection() {
 						<div className="w-full h-[1px] bg-black" />
 					</div>
 					{/* Founder */}
-					<div className="flex flex-col h-full justify-center">
+					<div className="flex flex-col h-full justify-center mt-3 lg:mt-0">
 						<h2 className="text-black/50 text-2xl md:text-5xl font-semibold">
 							Our Founders
 						</h2>
 
-						<div className="space-y-4">
+						<div className="space-y-4 min-h-[250px] mt-10">
 							<h3 className="text-3xl md:text-4xl font-medium">
 								{founders[currentFounder].name}
 							</h3>
@@ -68,14 +68,14 @@ export default function FounderSection() {
 						<div className="flex gap-2 items-center">
 							<button
 								onClick={prevFounder}
-								className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+								className="p-2 transition-all duration-200 active:scale-90 active:translate-x-[-4px]"
 								aria-label="Previous founder"
 							>
 								<BsArrowLeft className="text-xl" />
 							</button>
 							<button
 								onClick={nextFounder}
-								className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+								className="p-2 transition-all duration-200 active:scale-90 active:translate-x-[4px]"
 								aria-label="Next founder"
 							>
 								<BsArrowRight className="text-xl" />
