@@ -10,6 +10,9 @@ export default {
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],
       },
+      colors: {
+        primary: '#FEEDDB',
+      },
     },
   },
   plugins: [],

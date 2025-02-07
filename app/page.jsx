@@ -10,12 +10,12 @@ export default function Home() {
 	return (
 		<div className="font-manrope bg-white">
 			<Navbar />
-			<main className="mx-4 md:mx-auto max-w-7xl space-y-12 my-12">
+			<main className="space-y-12 my-12">
 				<HeroSection />
-				<CTA />
-				<Testimonials />
-				<FounderSection />
 				<DiscoverySection />
+				<FounderSection />
+				<Testimonials />
+				<CTA />
 			</main>
 			<Footer />
 		</div>
