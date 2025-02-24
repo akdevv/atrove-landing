@@ -7,17 +7,17 @@ import { useRef, useEffect, useState } from "react";
 const demoDiscovery = [
 	{
 		title: "Discovery",
-		desc: "We allows users to explore new products listed by other users along with the direct links to these products so that you can access any clothing that you find interesting!",
+		desc: "Explore a curated selection of fashion finds shared by other users. Each post includes a direct link to the product, making it effortless to shop for pieces you love.",
 		image: "/images/discovery1.png",
 	},
 	{
 		title: "Upload Product",
-		desc: "You can upload your products and share it on groups or on discovery to let other buy or borrow that product, discovery can only share the links whereas in groups you can even borrow each others products",
+		desc: "Easily upload and share your favorite fashion pieces. Choose to list items publicly on Discovery for others to shop via direct links, or share them privately in groups, allowing trusted friends to request to borrow them.",
 		image: "/images/discovery2.png",
 	},
 	{
 		title: "Private Groups",
-		desc: "To maintain a trust and provide privacy, you can create groups with your friends and family to share and borrow each others clothes along with a group chat to keep it transparent",
+		desc: "Create and join exclusive groups with friends and family to share and borrow clothing in a trusted space. Each group includes a built-in chat for seamless communication and transparency throughout the borrowing process.",
 		image: "/images/discovery3.png",
 	},
 ];
